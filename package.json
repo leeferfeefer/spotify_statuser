@@ -1,0 +1,18 @@
+{
+  "name": "spotify_statuser",
+  "version": "1.0.0",
+  "description": "Set Teams profile status with what I am currently listening to from Spotify",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Dan Fincher",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.13",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
